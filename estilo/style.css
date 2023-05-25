@@ -39,12 +39,12 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height:471px;
 }
 
 section#redes-sociais {
-    text-align: left;
+    text-align: right;
 }
 
 section#redes-sociais img {
@@ -55,10 +55,10 @@ section#redes-sociais img {
     box-sizing: border-box;
 }
 
-section#redes-sociais img:rover {
+section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.631);
-    transform: translate(-10px, -10px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.463);
-    transition: tranform .3s, border .5s;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.591);
+    transition: transform .3s, border .5s;
 
 }
